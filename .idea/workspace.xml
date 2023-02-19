@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5dc49588-e5d2-4940-8571-4c12f924f1cd" name="Changes" comment="commintante cheguera" />
+    <list default="true" id="5dc49588-e5d2-4940-8571-4c12f924f1cd" name="Changes" comment="commintante cheguera">
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,7 +57,7 @@
       <option name="presentableId" value="Default" />
       <updated>1676810941721</updated>
       <workItem from="1676810943277" duration="2932000" />
-      <workItem from="1676821165517" duration="1522000" />
+      <workItem from="1676821165517" duration="1882000" />
     </task>
     <task id="LOCAL-00001" summary="commintante cheguera">
       <created>1676825023123</created>
@@ -64,7 +66,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676825023123</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="commintante cheguera">
+      <created>1676825205100</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1676825205100</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
