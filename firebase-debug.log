@@ -1,0 +1,43 @@
+[debug] [2023-02-19T18:41:48.443Z] ----------------------------------------------------------------------
+[debug] [2023-02-19T18:41:48.445Z] Command:       /usr/local/bin/firebase /Users/yalcinyakar/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/bin/firebase emulators:start
+[debug] [2023-02-19T18:41:48.446Z] CLI Version:   11.23.1
+[debug] [2023-02-19T18:41:48.446Z] Platform:      darwin
+[debug] [2023-02-19T18:41:48.446Z] Node Version:  v16.16.0
+[debug] [2023-02-19T18:41:48.451Z] Time:          Sun Feb 19 2023 21:41:48 GMT+0300 (GMT+03:00)
+[debug] [2023-02-19T18:41:48.452Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-02-19T18:41:48.570Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-02-19T18:41:48.572Z] > authorizing via signed-in user (hyalcinyakar@gmail.com)
+[info] i  emulators: Starting emulators: hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: hosting"}}
+[debug] [2023-02-19T18:41:49.217Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[warn] ⚠  hosting: Hosting Emulator unable to start on port 5000, starting on 5002 instead. {"metadata":{"emulator":{"name":"hosting"},"message":"Hosting Emulator unable to start on port 5000, starting on 5002 instead."}}
+[debug] [2023-02-19T18:41:49.220Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-02-19T18:41:49.220Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5002}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2023-02-19T18:41:49.232Z] [hub] writing locator at /var/folders/57/54n8q9t57072zc011sf5vm5r0000gn/T/hub-awfulidea-98dc8.json
+[debug] [2023-02-19T18:41:49.280Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/awfulidea-98dc8/sites 
+[debug] [2023-02-19T18:41:50.627Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/awfulidea-98dc8/sites 200
+[debug] [2023-02-19T18:41:50.630Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/awfulidea-98dc8/sites {"sites":[{"name":"projects/awfulidea-98dc8/sites/awfulidea-98dc8","defaultUrl":"https://awfulidea-98dc8.web.app","appId":"1:668659414534:web:6a4f001c03c6d6ccdf3587","type":"DEFAULT_SITE"}]}
+[debug] [2023-02-19T18:41:50.632Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/awfulidea-98dc8/webApps/1:668659414534:web:6a4f001c03c6d6ccdf3587/config [none]
+[debug] [2023-02-19T18:41:51.748Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/awfulidea-98dc8/webApps/1:668659414534:web:6a4f001c03c6d6ccdf3587/config 200
+[debug] [2023-02-19T18:41:51.749Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/awfulidea-98dc8/webApps/1:668659414534:web:6a4f001c03c6d6ccdf3587/config {"projectId":"awfulidea-98dc8","appId":"1:668659414534:web:6a4f001c03c6d6ccdf3587","storageBucket":"awfulidea-98dc8.appspot.com","apiKey":"AIzaSyDTXiH7cmu7fyddA-ThY-WvKItiuBZHUbg","authDomain":"awfulidea-98dc8.firebaseapp.com","messagingSenderId":"668659414534","measurementId":"G-V5MJS8DGK0"}
+[debug] [2023-02-19T18:41:51.767Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/awfulidea-98dc8 [none]
+[debug] [2023-02-19T18:41:52.203Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/awfulidea-98dc8 200
+[debug] [2023-02-19T18:41:52.204Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/awfulidea-98dc8 {"projectId":"awfulidea-98dc8","projectNumber":"668659414534","displayName":"awfulidea","name":"projects/awfulidea-98dc8","resources":{"hostingSite":"awfulidea-98dc8"},"state":"ACTIVE","etag":"1_da1d56d0-80fa-4c66-8cfa-de17835b427a"}
+[info] i  hosting[awfulidea-98dc8]: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
+[info] ✔  hosting[awfulidea-98dc8]: Local server: http://127.0.0.1:5002 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5002\u001b[22m\u001b[24m"}}
+[warn] ⚠  emulators: The Emulator UI is not starting, either because none of the emulated products have an interaction layer in Emulator UI or it cannot determine the Project ID. Pass the --project flag to specify a project. {"metadata":{"emulator":{"name":"hub"},"message":"The Emulator UI is not starting, either because none of the emulated products have an interaction layer in Emulator UI or it cannot determine the Project ID. Pass the --project flag to specify a project."}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+└─────────────────────────────────────────────────────────────┘
+
+┌──────────┬────────────────┐
+│ Emulator │ Host:Port      │
+├──────────┼────────────────┤
+│ Hosting  │ 127.0.0.1:5002 │
+└──────────┴────────────────┘
+  Emulator Hub running at 127.0.0.1:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
